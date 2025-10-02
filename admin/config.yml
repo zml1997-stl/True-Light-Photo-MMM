@@ -1,0 +1,165 @@
+backend:
+name: git-gateway
+branch: main
+
+media_folder: “images/uploads”
+public_folder: “/images/uploads”
+
+collections:
+
+# Portfolio Collection
+
+- name: “portfolio”
+  label: “Portfolio”
+  folder: “content”
+  identifier_field: “portfolio”
+  extension: “json”
+  format: “json”
+  create: false
+  delete: false
+  editor:
+  preview: false
+  files:
+  - file: “content/portfolio.json”
+    label: “Portfolio Items”
+    name: “portfolio”
+    fields:
+    - label: “Portfolio Items”
+      name: “items”
+      widget: “list”
+      fields:
+      - {label: “ID”, name: “id”, widget: “number”}
+      - {label: “Category”, name: “category”, widget: “select”, options: [“Portraits”, “Couples”, “Family”, “Branding”]}
+      - {label: “Image”, name: “image”, widget: “image”}
+      - {label: “Title”, name: “title”, widget: “string”}
+      - {label: “Description”, name: “description”, widget: “text”}
+      - {label: “Featured on Home Page”, name: “featured”, widget: “boolean”, default: false}
+
+# Services Collection
+
+- name: “services”
+  label: “Services & Pricing”
+  folder: “content”
+  identifier_field: “services”
+  extension: “json”
+  format: “json”
+  create: false
+  delete: false
+  editor:
+  preview: false
+  files:
+  - file: “content/services.json”
+    label: “Services & Pricing”
+    name: “services”
+    fields:
+    - label: “Services”
+      name: “services”
+      widget: “list”
+      fields:
+      - {label: “Service Name”, name: “name”, widget: “string”}
+      - {label: “Price Range”, name: “price”, widget: “string”}
+      - label: “Features”
+        name: “features”
+        widget: “list”
+        field: {label: “Feature”, name: “feature”, widget: “string”}
+    - label: “Add-ons”
+      name: “addons”
+      widget: “list”
+      fields:
+      - {label: “Add-on Name”, name: “name”, widget: “string”}
+      - {label: “Price”, name: “price”, widget: “string”}
+
+# Testimonials Collection
+
+- name: “testimonials”
+  label: “Testimonials”
+  folder: “content”
+  identifier_field: “testimonials”
+  extension: “json”
+  format: “json”
+  create: false
+  delete: false
+  editor:
+  preview: false
+  files:
+  - file: “content/testimonials.json”
+    label: “Client Testimonials”
+    name: “testimonials”
+    fields:
+    - label: “Testimonials”
+      name: “items”
+      widget: “list”
+      fields:
+      - {label: “Testimonial Text”, name: “text”, widget: “text”}
+      - {label: “Client Name”, name: “author”, widget: “string”}
+
+# Blog Collection
+
+- name: “blog”
+  label: “Blog Posts”
+  folder: “content”
+  identifier_field: “blog”
+  extension: “json”
+  format: “json”
+  create: false
+  delete: false
+  editor:
+  preview: false
+  files:
+  - file: “content/blog.json”
+    label: “Blog Posts”
+    name: “blog”
+    fields:
+    - label: “Blog Posts”
+      name: “items”
+      widget: “list”
+      fields:
+      - {label: “Title”, name: “title”, widget: “string”}
+      - {label: “Date”, name: “date”, widget: “string”}
+      - {label: “Featured Image”, name: “image”, widget: “image”}
+      - {label: “Excerpt”, name: “excerpt”, widget: “text”}
+      - {label: “Link”, name: “link”, widget: “string”, default: “#”}
+
+# Site Info Collection
+
+- name: “site_info”
+  label: “Site Information”
+  folder: “content”
+  identifier_field: “site-info”
+  extension: “json”
+  format: “json”
+  create: false
+  delete: false
+  editor:
+  preview: false
+  files:
+  - file: “content/site-info.json”
+    label: “General Site Info”
+    name: “site-info”
+    fields:
+    - {label: “Email Address”, name: “email”, widget: “string”}
+    - {label: “Phone Number”, name: “phone”, widget: “string”}
+    - {label: “Business Hours”, name: “businessHours”, widget: “string”}
+    - {label: “Hero Title”, name: “heroTitle”, widget: “string”}
+    - {label: “Hero Tagline”, name: “heroTagline”, widget: “string”}
+    - {label: “About Section Title”, name: “aboutTitle”, widget: “string”}
+    - label: “About Paragraphs”
+      name: “aboutParagraphs”
+      widget: “list”
+      field: {label: “Paragraph”, name: “paragraph”, widget: “text”}
+    - {label: “About Image”, name: “aboutImage”, widget: “image”}
+    - label: “Highlights”
+      name: “highlights”
+      widget: “list”
+      fields:
+      - {label: “Icon (Emoji)”, name: “icon”, widget: “string”}
+      - {label: “Title”, name: “title”, widget: “string”}
+      - {label: “Description”, name: “description”, widget: “text”}
+    - label: “Social Media”
+      name: “social”
+      widget: “object”
+      fields:
+      - {label: “Instagram URL”, name: “instagram”, widget: “string”, required: false}
+      - {label: “TikTok URL”, name: “tiktok”, widget: “string”, required: false}
+      - {label: “Pinterest URL”, name: “pinterest”, widget: “string”, required: false}
+      - {label: “Facebook URL”, name: “facebook”, widget: “string”, required: false}
