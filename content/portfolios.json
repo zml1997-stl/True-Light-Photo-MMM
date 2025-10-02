@@ -1,0 +1,90 @@
+[
+{
+“id”: 1,
+“category”: “Portraits”,
+“image”: “https://picsum.photos/id/1062/400/500”,
+“title”: “Portraits”,
+“description”: “Authentic moments captured beautifully”,
+“featured”: true
+},
+{
+“id”: 2,
+“category”: “Portraits”,
+“image”: “https://picsum.photos/seed/portrait1/400/500”,
+“title”: “Portrait Session 1”,
+“description”: “Natural light portrait”,
+“featured”: false
+},
+{
+“id”: 3,
+“category”: “Portraits”,
+“image”: “https://picsum.photos/seed/portrait2/400/500”,
+“title”: “Portrait Session 2”,
+“description”: “Studio portrait”,
+“featured”: false
+},
+{
+“id”: 4,
+“category”: “Couples”,
+“image”: “https://picsum.photos/id/1082/400/500”,
+“title”: “Couples & Engagements”,
+“description”: “Love stories in their truest form”,
+“featured”: true
+},
+{
+“id”: 5,
+“category”: “Couples”,
+“image”: “https://picsum.photos/seed/couple1/400/500”,
+“title”: “Engagement Session 1”,
+“description”: “Romantic engagement photography”,
+“featured”: false
+},
+{
+“id”: 6,
+“category”: “Couples”,
+“image”: “https://picsum.photos/seed/couple2/400/500”,
+“title”: “Engagement Session 2”,
+“description”: “Couples photography”,
+“featured”: false
+},
+{
+“id”: 7,
+“category”: “Family”,
+“image”: “https://picsum.photos/id/1015/400/500”,
+“title”: “Family”,
+“description”: “Cherished memories that last forever”,
+“featured”: true
+},
+{
+“id”: 8,
+“category”: “Family”,
+“image”: “https://picsum.photos/seed/family1/400/500”,
+“title”: “Family Session 1”,
+“description”: “Beautiful family moments”,
+“featured”: false
+},
+{
+“id”: 9,
+“category”: “Family”,
+“image”: “https://picsum.photos/seed/family2/400/500”,
+“title”: “Family Session 2”,
+“description”: “Timeless family portraits”,
+“featured”: false
+},
+{
+“id”: 10,
+“category”: “Branding”,
+“image”: “https://picsum.photos/seed/brand1/400/500”,
+“title”: “Branding Session 1”,
+“description”: “Professional branding photography”,
+“featured”: false
+},
+{
+“id”: 11,
+“category”: “Branding”,
+“image”: “https://picsum.photos/seed/brand2/400/500”,
+“title”: “Branding Session 2”,
+“description”: “Business portrait photography”,
+“featured”: false
+}
+]
