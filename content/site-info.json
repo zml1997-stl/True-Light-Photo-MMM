@@ -1,0 +1,37 @@
+{
+“email”: “hello@truelightphotography.com”,
+“phone”: “(555) 123-4567”,
+“businessHours”: “Mon-Fri, 9:00 AM - 6:00 PM”,
+“heroTitle”: “TRUE LIGHT”,
+“heroTagline”: “Capturing Light. Telling Stories.”,
+“aboutTitle”: “Hi, I’m Alex”,
+“aboutParagraphs”: [
+“Photography isn’t just what I do—it’s how I see the world. Every session is a chance to tell a unique story, to capture the light in its most authentic form, and to create images that become treasured memories.”,
+“With over 8 years of experience, I specialize in creating comfortable, joyful experiences that result in stunning imagery. My approach combines luxury editing with genuine moments, ensuring every photo feels both timeless and true to you.”,
+“Whether it’s an intimate engagement session, a family milestone, or professional branding photography, I’m here to help you shine in your true light.”
+],
+“aboutImage”: “https://picsum.photos/id/220/600/800”,
+“highlights”: [
+{
+“icon”: “✨”,
+“title”: “Storytelling Style”,
+“description”: “Every image tells your unique story with authenticity and emotion”
+},
+{
+“icon”: “🎨”,
+“title”: “Luxury Editing”,
+“description”: “Professional post-production that enhances natural beauty”
+},
+{
+“icon”: “💫”,
+“title”: “Comfortable Experience”,
+“description”: “Relaxed sessions where you can be completely yourself”
+}
+],
+“social”: {
+“instagram”: “https://instagram.com”,
+“tiktok”: “https://tiktok.com”,
+“pinterest”: “https://pinterest.com”,
+“facebook”: “https://facebook.com”
+}
+}
