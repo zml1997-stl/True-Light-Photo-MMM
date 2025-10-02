@@ -1,0 +1,70 @@
+{
+“services”: [
+{
+“name”: “Mini Sessions”,
+“price”: “$250–$350”,
+“features”: [
+“30-minute session”,
+“One location of your choice”,
+“15-20 professionally edited images”,
+“Digital gallery with download rights”,
+“Perfect for quick updates & seasonal photos”
+]
+},
+{
+“name”: “Standard Portraits”,
+“price”: “$500–$700”,
+“features”: [
+“60-minute session”,
+“Two locations”,
+“40-50 edited images”,
+“Digital gallery”,
+“Print release included”,
+“Wardrobe consultation”
+]
+},
+{
+“name”: “Premium Sessions”,
+“price”: “$900–$1,200”,
+“features”: [
+“90-minute session”,
+“Multiple locations”,
+“75+ edited images”,
+“Premium luxury editing”,
+“Print release + complimentary 8x10 print”,
+“Styling guide & location scouting”
+]
+},
+{
+“name”: “Engagement & Branding”,
+“price”: “$1,200–$2,000+”,
+“features”: [
+“Custom session length (2-3 hours)”,
+“Multiple locations”,
+“100+ edited images”,
+“Luxury editing & retouching”,
+“Full print release”,
+“Option for albums & wall art”,
+“Short video reels available”
+]
+}
+],
+“addons”: [
+{
+“name”: “Premium Prints”,
+“price”: “Starting at $35”
+},
+{
+“name”: “Custom Albums”,
+“price”: “$400–$800”
+},
+{
+“name”: “Wall Art & Canvas”,
+“price”: “Starting at $150”
+},
+{
+“name”: “Video Reels”,
+“price”: “$200–$400”
+}
+]
+}
